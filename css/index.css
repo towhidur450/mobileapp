@@ -170,7 +170,7 @@ footer> p {
 /* https://www.design-memo.com/coding/css-media-queries */
 /* mobileのときのスタイル */
 /*******************************************************/
-@media screen and (max-width: auto) {
+@media screen and (max-width: 428px) {
     body{
         background-size: auto 812px;
     }
