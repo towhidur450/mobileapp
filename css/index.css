@@ -155,7 +155,7 @@ a:hover{
 /* フッター                   */
 /*****************************/
 footer> p {
-    position: absolute;/*←絶対位置*/
+    position:relative;/*←絶対位置*/
     bottom: 5px; /*下に固定*/
     width: 100vw;
     margin: 0px;
