@@ -175,15 +175,4 @@ footer> p {
         background-size: auto 812px;
         background-position: cover;
     }
-    footer> p {
-    position:relative;/*←絶対位置*/
-    bottom: 0px; /*下に固定*/
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    color: whitesmoke;
-    font: 1em Rajdhani;
-    text-align: center;
-    background: rgba(1, 24, 31, 0.7);
-}
 }
