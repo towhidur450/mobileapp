@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta name="viewport" content= "width=device-width, user-scalable=no">
+      <meta charset="UTF-8">
+      <title>OMIKUJI</title>
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="css/omikuji.css">
+    </head>
+
+    <body>
+        <div class = "back">
+            <button id="btn99" class="back" type="button" onclick="history.back()">back</button>
+        </div>
+        <!--オープニングシャッターアニメーション-->
+        <div class="shutter opening"></div>
+        <!--ヘッタ-->
+        <header>今日のあなたの運勢は？</header>
+        <!--ヘッタ-->
+
+        <!--ゲーム全体-->
+        <div class="wrapper" title="大吉だといいね～">
+            <div id="btn1"></div>
+            <div class="omikuji"></div>
+            <div id="omikijiText"></div>
+        </div>
+        
+        <!--ゲーム全体-->
+
+        
+        <!--フッタ-->
+        <p>©copyright2021 RAHMAN MD TOWHIDUR</p>
+        <!--フッタ-->
+        <!-- jQueryライブラリを使用する。 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/snowfall.jquery.min.js"></script>
+        <script src="assets/jquery.lettering.js"></script>
+        <script src="assets/jquery.textillate.js"></script>
+        <script src="js/omikuji.js"></script>
+    </body>
+</html>
